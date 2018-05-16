@@ -31,7 +31,7 @@ public class ReportChangesTest {
 	public static void initialize(){
 		switch(Properties.browser){
 		case FIREFOX: 
-			System.setProperty("webdriver.firefox.bin", "C:/Users/Base2/Downloads/drivers/geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", "C:/Users/Base2/Downloads/drivers/geckodriver.exe");
 			driver = new FirefoxDriver(); break;
 		case CHROME:
 			System.setProperty("webdriver.chrome.driver", "C:/Users/Base2/Downloads/drivers/chromedriver.exe");
